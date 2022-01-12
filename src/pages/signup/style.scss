@@ -1,0 +1,37 @@
+.body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 3px rgb(97, 92, 92);
+    padding: 20px;
+    width: 40%;
+
+    @media (max-width:800px) {
+        width: 80%;
+    }
+}
+
+.title{
+    color: rgb(109, 104, 104);
+    font-size: 30px;
+    @media (max-width:800px) {
+       font-size: 20px;
+       font-weight: bold;
+    }
+}
+
+.loading-image{
+    width: 40%;
+    border-radius: 150px;
+}
