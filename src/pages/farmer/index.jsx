@@ -3,6 +3,7 @@ import pic from '../../assets/prof.png'
 import MonthCard from '../../components/monthCard';
 import { months } from './data';
 import DayCard from '../../components/dayCard';
+import Footer from '../home/footer';
 import { useState } from 'react';
 
 function FarmerPage(props) {
@@ -84,6 +85,8 @@ function FarmerPage(props) {
                    < MonthCard month={month.month} amount={month.amount} />
                </div> ) }
             </div>
+
+            < Footer / >
             
         </div>
     );

@@ -12,10 +12,9 @@ function Footer(props) {
             </div>
             <div className='footer__column' >
                 <h2>Company</h2>
-                <a className='navbar__link' href="#home">home</a>
-                <a className='navbar__link' href="#about">about</a>
-                <a className='navbar__link' href="#services">services</a>
-                <a className='navbar__link' href="#contact">contact us</a>
+                <b >info@onclick.com</b> <br />
+                <b>+254 711223344</b> <br />
+                <b>  Nyeri, Kenya</b>
 
             </div>
             <div className='footer__column' >
