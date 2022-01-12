@@ -27,7 +27,7 @@ function Services(props) {
                 <div className='services__info-title'> To Collecters</div>
                 <p className='services__info-text' style={{width: twidth }}  >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptatibus error nemo eaque minus iste enim praesentium aperiam, laboriosam sequi quos molestiae reprehenderit consectetur quidem quaerat natus voluptate voluptates deserunt?</p>
             </div>
-            <img src={collecterimg} className="services__image" height='300px' alt="" />
+            <img src={collecterimg} className="services__image" height='auto' width='40%' alt="" />
             </div>
             <br />
         </div>

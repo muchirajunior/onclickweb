@@ -1,14 +1,16 @@
 import image from '../../assets/milksplash.png';
-
+import { useNavigate } from 'react-router-dom';
 function Banner(props) {
+    const nav=useNavigate()
     return (
+
         <div className='banner'>
             <div className='banner__column1'>
                <span className='banner__title' >onclick <br /> brand</span>
                <br /><br />
-               <span className='banner__text'>  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus dolores minus illo animi beatae vero nisi doloremque rerum ipsa praesentium, blanditiis facere temporibus? Assumenda ea sapiente quasi eos quaerat iste.</span>
+               <span className='banner__text'>  We join tongether and improve Agriculture  through technology. Our main firm on dairy sales management. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem neque molestiae sequi sint. Accusantium, magni.</span>
                <br /><br /><br /><br />
-              <a href="/login" className='banner__signup' >farmer signup</a>
+              <button onClick={()=>nav('/login')} className='banner__signup' >farmer signup</button>
               <br />
               <button className='banner__signup banner__app-download' >donwload app</button>
             </div>
