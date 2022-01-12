@@ -95,6 +95,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+
+    @media (max-width:500px) {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+    }
 }
 
 .month-record-modal{
